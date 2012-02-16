@@ -45,9 +45,7 @@ describe('API', function(){
 })
 
 function bad() {
-  var i = 99999999;
-  
-  while(i--) {
+  while(1) {
     // infinte loop 1
   }
   

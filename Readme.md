@@ -33,3 +33,17 @@ Output:
 
     ['x', 2]
     ['y', 3]
+    
+Infinite recursion protection.
+
+    function bad() {
+      while(true) {
+        // infinte loop
+      }
+  
+      for(var i = 0; true; i++) {
+        // infinite loop
+      }
+    }
+
+    reval(bad.toString()).run();
