@@ -5,10 +5,13 @@
   "repository": {
     "url": ""
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "engines": {
     "node": ">= 0.6.x"
   },
   "main":"index",
   "dependencies": {"burrito": "0.2.x"},
-  "devDependencies": {}
+  "devDependencies": {"mocha": "*"}
 }
