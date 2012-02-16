@@ -2,9 +2,17 @@
 
 A JavaScript lib for building continuous execution style programming interfaces.
 
+## Install
+
+    npm install reval
+
 ## Example
 
-Evaluate some javascript.
+Require it.
+
+    var reval = require('reval');
+
+Evaluate some JavaScript.
 
     function src() {
     	return 2 + 2 + 2;
@@ -29,7 +37,7 @@ Print all local variables.
 
     ctx.run();
     
-Output:
+Output:****
 
     ['x', 2]
     ['y', 3]
