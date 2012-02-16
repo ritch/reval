@@ -1,18 +1,18 @@
 # reval [![Build Status](https://secure.travis-ci.org/ritch/reval.png?branch=master)](http://travis-ci.org/ritch/reval)
 
-A JavaScript lib for building continuous execution style programming interfaces.
-
+A JavaScript lib for building continuous execution style programming interfaces like [these](http://vimeo.com/36579366).
+  
 ## Install
 
     npm install reval
 
-## Example
+## Examples
 
-Require it.
+### Require it.
 
     var reval = require('reval');
 
-Evaluate some JavaScript.
+### Evaluate some JavaScript.
 
     function src() {
     	return 2 + 2 + 2;
@@ -20,7 +20,7 @@ Evaluate some JavaScript.
 
     console.info(reval(src.toString()).run()); // 6
     
-Print all local variables.
+### Print all local variables.
 
     function locals() {
       var x = 2
@@ -37,12 +37,12 @@ Print all local variables.
 
     ctx.run();
     
-Output:****
+**Output**
 
     ['x', 2]
     ['y', 3]
     
-Infinite recursion protection.
+### Infinite recursion protection.
 
     function bad() {
       while(true) {
@@ -65,3 +65,7 @@ Infinite recursion protection.
 ## In the browser
 
 Works in the browser with [browserify](https://github.com/substack/node-browserify).
+
+## License
+
+### MIT/X11
