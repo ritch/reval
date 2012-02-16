@@ -1,4 +1,4 @@
-# reval
+# reval [![Build Status](https://secure.travis-ci.org/ritch/reval.png?branch=master)](http://travis-ci.org/ritch/reval)
 
 A JavaScript lib for building continuous execution style programming interfaces.
 
