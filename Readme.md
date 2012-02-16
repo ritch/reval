@@ -53,3 +53,7 @@ Infinite recursion protection.
 ## Tests
 
     make test
+    
+## In the browser
+
+Works in the browser with [browserify](https://github.com/substack/node-browserify).
