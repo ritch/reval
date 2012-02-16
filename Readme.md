@@ -47,3 +47,9 @@ Infinite recursion protection.
     }
 
     reval(bad.toString()).run();
+    
+    console.info('...nope still here!');
+    
+## Tests
+
+    make test

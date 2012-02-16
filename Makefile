@@ -1,2 +1,4 @@
-js:
+test:
 	@mocha
+	
+.PHONY: test
